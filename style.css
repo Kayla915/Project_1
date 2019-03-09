@@ -1,5 +1,5 @@
 body{
-    background-color: paleturquoise;
+    background-color: blue;
     
 }
 
@@ -16,12 +16,37 @@ header{
     width:100%;
     background-image:url("nyc.jpg");
     background-size:cover;
-    text-align:center;
+    text-indent: inherit;
+    text-align: center;
     color: black;
     font-family: 'Libre Baskerville', 'indieflower';
 
 }
 header p{
-    font-style: italic;
+    font-size: x-large;
+    color: black;
+}
+section{
+    color:white;
+}
+.aboutus{
+    text-align: center;
+}
+.aboutus i{
+    font-size: 30px;
+    padding: 25px 20px;
+    /*change the color*/
+    color: #fff;
+    background-color: #5cb85c;
+    /*resize container icon*/
+    width:80px;
+    height:80px;
+    
+    /*make the container round*/
+    border-radius: 50%;
+}
 
+.aboutus span{
+    width: 200px;
+    display:inline-block;
 }

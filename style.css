@@ -31,6 +31,7 @@ section{
 }
 .aboutus{
     text-align: center;
+    padding: 30px;
 }
 .aboutus i{
     font-size: 30px;
@@ -49,4 +50,63 @@ section{
 .aboutus span{
     width: 200px;
     display:inline-block;
+}
+
+/*Team*/
+.team{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+.team img{
+    width: 250px;
+    height: 250px;
+    /*Object fit will crop and center image based on width and height*/
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
+
+.getinvolved i{
+    font-size: 30px;
+    padding: 25px 20px;
+    /*change the color*/
+    color: #fff;
+    background-color: #0B5F1A;
+    /*resize container icon*/
+    width:80px;
+    height:80px;
+    
+    /*make the container round*/
+    border-radius: 50%;
+}
+.getinvolved {
+    background-color: lightgreen;
+    text-align: center;
+    /*adds padding on top and bottom*/
+    padding:50px 0 80px;
+    margin-top: 50px;
+    width: 100%;
+}
+.options span{
+    width: 100px;
+    display:inline-block;
+}
+.getinvolved .options{
+    background-color: #0B5F1A;
+    height: 300px;
+    /*make the container round*/
+    border-radius: 10%;
+    font-size: 30px;
+}
+.getinvolved h2{
+    color: #000000;
+}
+.contact .btn{
+    border-radius: 0;
+    width: 100%;
+    font-size: 15px;
+    background-color: #0FD6DF;
+    color: #fff;
+    
 }
